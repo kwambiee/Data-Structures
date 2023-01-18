@@ -26,5 +26,5 @@ function closestToZero(arr){
     return arr[0];
 }
 
-const arr = [1, -1, 2, -2, 3, 0, 4, -4];
+const arr = [5,3,9,7,12,-4,-2];
 console.log(closestToZero(arr));
