@@ -19,3 +19,11 @@ function matchingStrings(stringList, queries) {
   }
   return result;
 }
+
+
+matchingStrings(
+  ['aba', 'baba', 'aba', 'xzxb'],
+  ['aba', 'xzxb', 'ab']
+);
+// Output: [2, 1, 0]
+// Explanation: 'aba' occurs 2 times, 'xzxb' occurs 1 time, and 'ab' does not occur.

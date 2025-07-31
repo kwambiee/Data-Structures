@@ -22,8 +22,8 @@ var average = function (salary) {
     console.log("sprttt ", sortedSalary)
     sortedSalary.shift();
     sortedSalary.pop();
-    const average = sortedSalary.reduce((acc, value) => acc + value, 0);
-    const result = average / sortedSalary.length;
+    const total = sortedSalary.reduce((acc, value) => acc + value, 0);
+    const result = total / sortedSalary.length;
   
     return result;
 
